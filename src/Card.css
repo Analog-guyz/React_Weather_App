@@ -1,0 +1,17 @@
+.card-container{
+   display: flex;
+
+   align-items: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   height: 380px;
+   width: fit-content;
+   border-radius: 15px;
+   box-shadow: 1.1px 1.1px 10px rgb(219, 219, 219);
+   margin: 0px 50px;
+   padding: 0 15px;
+   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(236,242,252,1) 70%, rgba(227,223,245,1) 100%);
+}
+.card-container p{
+    font-size: 1rem;
+}
